@@ -29,3 +29,31 @@ panjang = 10
 lebar = 5
 luas = panjang * lebar
 print(luas)
+
+# Banyak Nilai ke Beberapa Variabel
+x, y, z = "jeruk", "pisang", "mangga"
+print(x)
+print(y)
+print(z)
+
+# Satu Nilai ke Beberapa Variabel
+a = b = c = "MELON"
+print(a)
+print(b)
+print(c)
+
+# Membongkar Koleksi
+buah = ["rambutan", "melon", "manggis"]
+d, e, f = buah
+print(d)
+print(e)
+print(f)
+
+# variabel global
+x = "awesom"
+def myFunc():
+    x = "fantastis"
+    print("python is" + x)
+
+myFunc()
+print("python is" + x)

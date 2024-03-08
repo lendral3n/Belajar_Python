@@ -19,7 +19,7 @@ print(0x1d3)
 print(5j)
 
 #tipe data List
-print([1,2,3,4,5]
+print([1,2,3,4,5])
 print(["lendra", "len", "lend"])
 
 #tipe data Tuple
